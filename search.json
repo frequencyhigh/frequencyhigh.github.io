@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "HF Gallery Post",
+		  "category"   : "photos",
+		  "url"        : "http://frequencyhigh.github.io//photos/gallery-post",
+		  "date"       : "2015-03-15 00:00:00 +0200",
+		  "shortdate"  : "March 15, 2015"
+		} ,
+	
+		{
 		  "title"      : "HF First Commit",
 		  "category"   : "",
 		  "url"        : "http://frequencyhigh.github.io//personal/first-commit",

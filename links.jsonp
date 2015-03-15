@@ -3,6 +3,11 @@ callback([
   {
     "text": "HF First Commit",
     "href": "http://frequencyhigh.github.io//personal/first-commit"
+  } ,
+
+  {
+    "text": "HF Gallery Post",
+    "href": "http://frequencyhigh.github.io//photos/gallery-post"
   } 
 
 ])
