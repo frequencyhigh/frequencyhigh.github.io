@@ -1,26 +1,15 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     
+    {% for link in site.links %}{% if link.external %}{% else %} 
     <url>
-        <loc>http://frequencyhigh.github.io//</loc>
-    </url> 
+        <loc>{{ site.url }}{{ link.url }}</loc>
+    </url>{% endif %}{% endfor %}
+    
+    {% for post in site.posts %}
     <url>
-        <loc>http://frequencyhigh.github.io//categories</loc>
-    </url> 
-    <url>
-        <loc>http://frequencyhigh.github.io//tags</loc>
-    </url> 
-    <url>
-        <loc>http://frequencyhigh.github.io//high-frequency</loc>
+        <loc>{{ site.url }}{{ post.url }}</loc>
     </url>
-    
-    
-    <url>
-        <loc>http://frequencyhigh.github.io//photos/gallery-post</loc>
-    </url>
-    
-    <url>
-        <loc>http://frequencyhigh.github.io//personal/first-commit</loc>
-    </url>
-    
+    {% endfor %}
 </urlset>
